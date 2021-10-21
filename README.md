@@ -9,7 +9,7 @@ cd backend
 nodemon server
 ```
 
-### Start the frontend 
+## Start the frontend 
 Run the command:
 ```bash
 yarn start

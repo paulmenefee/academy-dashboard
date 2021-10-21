@@ -9,6 +9,8 @@ import EditCohort from "./components/edit-cohort.component";
 import CreateCohort from "./components/create-cohort.component";
 import CreateUser from "./components/create-user.component";
 
+import useGoogleCharts from './components/charts/useGoogleCharts';
+
 
 function App() {
 
@@ -17,7 +19,7 @@ function App() {
       <div className="container">
         <Navbar />
         <br />
-        <Route path="/" exact component={ListCohort} />
+        <Route path="/" exact component={ ListCohort} />
         <Route path="/edit/:id" exact component={EditCohort} />
         <Route path="/create" exact component={CreateCohort} />
         <Route path="/user" exact component={CreateUser} />
